@@ -1,5 +1,6 @@
 # homelab-master 🏡☁️
 Central repo for building, configuring, and deploying the entire homelab stack.  
+
 Goal: push-button infra, best practices, and as cloud-agnostic as possible. ✨
 
 <br>
