@@ -51,6 +51,8 @@ Goal: push-button infra, best practices, and as cloud-agnostic as possible. ✨
 - [x] Decide secrets strategy (storage, push, usage)
 - [x] Choose deployment strategy (Bootstrap vs ArgoCD) → **ArgoCD** 🎯
 
+<br>
+
 ### Next Up 🚧
 Refactor the **cp-deploy** project to use an ArgoCD *App of Apps* pattern to bootstrap:
 
