@@ -12,30 +12,19 @@ Goal: **documented, repeatable home infra** that feels more like a tiny cloud an
 ***Update**: New [Task board📋](https://github.com/users/pukar10/projects/1)*
 <br><br>
 
-
-## 🧭 Contents
-
-- [Project Index (Other Repos)](#-project-index-other-repos)
-- [Docs, Notes & How-Tos](#-docs-notes--how-tos)
-- [Troubleshooting Notes](#-troubleshooting-notes)
-- [Roadmap](#-roadmap)
-<br><br>
-
 ## 🚀 Project Index (Other Repos)
 
-### 🖥️ Proxmox & VMs
+### 🖥️ VMs (Proxmox)
 
 - [`proxmox-deploy`](https://github.com/pukar10/proxmox-deploy)  
   Provision and configure VMs on Proxmox with Terraform + Cloud-Init.
 
----
 
 ### ☸️ Kubernetes
 
 - [`k3-automation`](https://github.com/pukar10/k3-automation)  
   Deploy a lean Kubernetes cluster.
 
----
 
 ### 🔐 Certificates & Secrets
 
@@ -45,7 +34,6 @@ Goal: **documented, repeatable home infra** that feels more like a tiny cloud an
 - `external-secrets-launch` (TBA)  
   Sync secrets between external secret stores and Kubernetes secrets, or generate your own.
 
----
 
 ### 🗄️ Data & Auth
 
@@ -55,16 +43,10 @@ Goal: **documented, repeatable home infra** that feels more like a tiny cloud an
 - [`keycloak-launch`](https://github.com/pukar10/keycloak-launch)  
   Central SSO and identity management.
 
----
 
 *(Add more as the homelab expands: media, monitoring, CI, etc.)*
 
----
 <br>
-
-## 📚 Docs, Notes & How-Tos
-
-This repo will also hold markdown notes under something like `docs/` or `notes/`.
 
 ## Roadmap ✅➡️🚧
 
@@ -95,5 +77,11 @@ Refactor the **cp-deploy** project to use an ArgoCD *App of Apps* pattern to boo
 - [ ] Kubernetes Dashboard
 - [ ] Paperless
 - [ ] Plex
+
+<br>
+
+## 📚 Docs, Notes & How-Tos
+
+This repo will also hold markdown notes under something like `docs/` or `notes/`.
 
 🧑🏼‍🏭
