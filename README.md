@@ -9,10 +9,20 @@ This repo is the **control center** for my homelab:
 
 Goal: **documented, repeatable home infra** that feels more like a tiny cloud and less like a pile of sticky notes.
 
+
 > [!TIP]  
 > 🆕 Check out the project board: **[Task Board 📋](https://github.com/users/pukar10/projects/1)**
+<br>
 
----
+## 📚 Docs, Notes & How-Tos
+
+This repo will also hold markdown notes under something like `docs/` or `notes/`, including:
+
+- Setup walkthroughs
+- “Break/fix” postmortems
+- Upgrade procedures
+- Architecture diagrams and decisions
+<br>
 
 ## 📂 Project Index
 
@@ -20,8 +30,6 @@ Goal: **documented, repeatable home infra** that feels more like a tiny cloud an
 
 - [`proxmox-deploy`](https://github.com/pukar10/proxmox-deploy)  
   Provision and configure VMs on Proxmox using **Terraform + Cloud-Init**.
-
----
 
 ### ☸️ Kubernetes
 
@@ -40,12 +48,7 @@ Goal: **documented, repeatable home infra** that feels more like a tiny cloud an
 
 - [`keycloak-launch`](https://github.com/pukar10/keycloak-launch)  
   Central **SSO and identity provider** for apps and services.
-
----
-
-*(More to come as the homelab expands: media, monitoring, CI, etc.)*
-
----
+<br>
 
 ## 🧭 Roadmap
 
@@ -74,16 +77,6 @@ Refactor the **`cp-deploy`** project to use an ArgoCD **App of Apps** pattern to
 - [ ] Kubernetes Dashboard
 - [ ] Paperless
 - [ ] Plex
+<br>
 
----
-
-## 📚 Docs, Notes & How-Tos
-
-This repo will also hold markdown notes under something like `docs/` or `notes/`, including:
-
-- Setup walkthroughs
-- “Break/fix” postmortems
-- Upgrade procedures
-- Architecture diagrams and decisions
-
-🧑🏼‍🏭 Homeops is where Future You comes to say “thanks, Past Me.”
+🧑🏼‍🏭 Happy Homelabing!
