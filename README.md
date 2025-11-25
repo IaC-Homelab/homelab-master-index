@@ -16,7 +16,7 @@ Goal: **documented, repeatable home infra** that feels more like a tiny cloud an
 
 ## 📚 Docs, Notes & How-Tos
 
-This repo will also hold markdown notes under something like `docs/` or `notes/`, including:
+This repo will also hold notes under something like `docs/` or `notes/`, including:
 
 - Setup walkthroughs
 - “Break/fix” postmortems
@@ -33,25 +33,25 @@ This repo will also hold markdown notes under something like `docs/` or `notes/`
 
 ### ☸️ Kubernetes
 
-- [`k3-automation`](https://github.com/pukar10/k3-automation) 
+- [`k3-automation`](https://github.com/pukar10/k3-automation)  
   Deploy a lean Kubernetes cluster.
 
-#### 🔐 Certificates & Secrets
-
-- [`cert-manager-launch`](https://github.com/pukar10/cert-manager-launch)  
-  Internal TLS.
-
-- `external-secrets-launch` *(TBA)*  
-  Sync secrets between external secret stores and Kubernetes secrets, or generate your own.
-
-#### 🗄️ Data & Auth
-
-- [`cloudnativepg-launch`](https://github.com/pukar10/cloudnativepg-launch)  
-  Manage Postgres clusters.
-
-- [`keycloak-launch`](https://github.com/pukar10/keycloak-launch)  
-  Central **SSO and identity provider** for apps and services.
-<br>
+  #### 🔐 Certificates & Secrets
+  
+  - [`cert-manager-launch`](https://github.com/pukar10/cert-manager-launch)  
+    Internal TLS.
+  
+  - `external-secrets-launch` *(TBA)*  
+    Sync secrets between external secret stores and Kubernetes secrets, or generate your own.
+  
+  #### 🗄️ Data & Auth
+  
+  - [`cloudnativepg-launch`](https://github.com/pukar10/cloudnativepg-launch)  
+    Manage Postgres clusters.
+  
+  - [`keycloak-launch`](https://github.com/pukar10/keycloak-launch)  
+    Central **SSO and identity provider** for apps and services.
+  <br>
 
 ## 🧭 Roadmap
 
