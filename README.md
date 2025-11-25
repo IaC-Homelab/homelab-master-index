@@ -35,12 +35,12 @@ This repo will also hold notes under something like `docs/` or `notes/`, includi
 
 ### 🧱 Terraform
 
-- [`proxmox-deploy`](https://github.com/pukar10/proxmox-deploy)  
+- [`proxmox-automate`](https://github.com/pukar10/proxmox-deploy)  
   Provision and configure VMs on Proxmox using **Terraform + Cloud-Init**.
 
 ### ☸️ Kubernetes
 
-- [`k3-automation`](https://github.com/pukar10/k3-automation)  
+- [`k3-automate`](https://github.com/pukar10/k3-automation)  
   Deploy a lean Kubernetes cluster.
 
   #### 🔐 Certificates & Secrets
