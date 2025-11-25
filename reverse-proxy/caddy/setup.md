@@ -28,7 +28,7 @@ apt install -y caddy
 systemctl status caddy
 ``` 
 
-4. Configure caddyfile
+4. Configure caddyfile `vim /etc/caddy/Caddyfile`
 ```bash
 
 {
