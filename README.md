@@ -12,7 +12,7 @@ Goal: **documented, repeatable home infra** that feels more like a tiny cloud an
 ***Update**: New [Task board📋](https://github.com/users/pukar10/projects/1)*
 <br><br>
 
-## 🚀 Project Index
+## Project Index 🚀
 
 #### 🖥️ VMs (Proxmox)
 
