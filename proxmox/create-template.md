@@ -1,0 +1,1 @@
+https://tcude.net/creating-a-vm-template-in-proxmox/
