@@ -12,17 +12,16 @@ Goal: **documented, repeatable home infra** that feels more like a tiny cloud an
 ***Update**: New [Task board📋](https://github.com/users/pukar10/projects/1)*
 <br><br>
 
+
 ## 🧭 Contents
 
 - [Project Index (Other Repos)](#-project-index-other-repos)
 - [Docs, Notes & How-Tos](#-docs-notes--how-tos)
 - [Troubleshooting Notes](#-troubleshooting-notes)
 - [Roadmap](#-roadmap)
-- [Meta / Task Board](#-meta--task-board)
 <br><br>
 
 ## 🚀 Project Index (Other Repos)
-<br>
 
 ### 🖥️ Proxmox & VMs
 
@@ -30,7 +29,6 @@ Goal: **documented, repeatable home infra** that feels more like a tiny cloud an
   Provision and configure VMs on Proxmox with Terraform + Cloud-Init.
 
 ---
-<br>
 
 ### ☸️ Kubernetes
 
@@ -38,7 +36,6 @@ Goal: **documented, repeatable home infra** that feels more like a tiny cloud an
   Deploy a lean Kubernetes cluster.
 
 ---
-<br>
 
 ### 🔐 Certificates & Secrets
 
@@ -49,7 +46,6 @@ Goal: **documented, repeatable home infra** that feels more like a tiny cloud an
   Sync secrets between external secret stores and Kubernetes secrets, or generate your own.
 
 ---
-<br>
 
 ### 🗄️ Data & Auth
 
@@ -69,7 +65,6 @@ Goal: **documented, repeatable home infra** that feels more like a tiny cloud an
 ## 📚 Docs, Notes & How-Tos
 
 This repo will also hold markdown notes under something like `docs/` or `notes/`.
-<br><br>
 
 ## Roadmap ✅➡️🚧
 
@@ -81,8 +76,6 @@ This repo will also hold markdown notes under something like `docs/` or `notes/`
 - [x] Upgrade to Proxmox 9
 - [x] Decide secrets strategy (storage, push, usage)
 - [x] Choose deployment strategy (Bootstrap vs ArgoCD) → **ArgoCD** 🎯
-
-<br>
 
 ### Next Up 🚧
 Refactor the **cp-deploy** project to use an ArgoCD *App of Apps* pattern to bootstrap:
@@ -103,5 +96,4 @@ Refactor the **cp-deploy** project to use an ArgoCD *App of Apps* pattern to boo
 - [ ] Paperless
 - [ ] Plex
 
-<br>
 🧑🏼‍🏭
