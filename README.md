@@ -1,76 +1,66 @@
-# homelab-master 🏡☁️
-Central repo for building, configuring, and deploying the entire homelab stacks
+# homeops 🏡⚙️  
+_The ops brain for homelabs._
 
-Goal: push-button infra, best practices, and as cloud-agnostic as possible. ✨
+This repo is the **control center** for my homelab:
 
-<br>
+- Index of all my homelab repos
+- Notes, guides, and “what did Past Me do to make this work?”
+- Troubleshooting logs so Future Me doesn’t suffer (as much)
 
-*Update: New Task board: [GitHub Project 📋](https://github.com/users/pukar10/projects/1)*
-<br><br>
+Goal: **documented, repeatable home infra** that feels more like a tiny cloud and less like a pile of sticky notes.
 
-## Project Index 🚀
+
+## 🧭 Contents
+
+- [Project Index (Other Repos)](#-project-index-other-repos)
+- [Docs, Notes & How-Tos](#-docs-notes--how-tos)
+- [Troubleshooting Notes](#-troubleshooting-notes)
+- [Roadmap](#-roadmap)
+- [Meta / Task Board](#-meta--task-board)
+
+
+## 🚀 Project Index (Other Repos)
 
 ### 🖥️ Proxmox & VMs
+
 - [`proxmox-deploy`](https://github.com/pukar10/proxmox-deploy)  
   Provision and configure VMs on Proxmox with Terraform + Cloud-Init.
 
-<br>
+---
 
 ### ☸️ Kubernetes
-- [`k3-automation`](https://github.com/pukar10/k3-automation)  
-  Deploy a lean Kubernetes cluster
 
-<br>
+- [`k3-automation`](https://github.com/pukar10/k3-automation)  
+  Deploy a lean Kubernetes cluster.
+
+---
 
 ### 🔐 Certificates & Secrets
+
 - [`cert-manager-launch`](https://github.com/pukar10/cert-manager-launch)  
-  Internal TLS via cert-manager
+  Internal TLS via cert-manager.
 
 - `external-secrets-launch` (TBA)  
-  Sync secrets between external secret stores and Kubernetes secrets, or generate your own
+  Sync secrets between external secret stores and Kubernetes secrets, or generate your own.
 
-<br>
+---
 
 ### 🗄️ Data & Auth
+
 - [`cloudnativepg-launch`](https://github.com/pukar10/cloudnativepg-launch)  
-  Manage Postgres clusters using CloudNativePG
+  Manage Postgres clusters using CloudNativePG.
 
 - [`keycloak-launch`](https://github.com/pukar10/keycloak-launch)  
-  Central SSO and identity management
-<br><br>
+  Central SSO and identity management.
 
+---
 
-## Roadmap ✅➡️🚧
+*(Add more as the homelab expands: media, monitoring, CI, etc.)*
 
-### Done ✅
-- [x] List desired homelab services and their purpose
-- [x] Terraform to deploy VMs
-- [x] Ansible to configure and install K3s
-- [x] Ansible to configure and install Rook-Ceph
-- [x] Upgrade to Proxmox 9
-- [x] Decide secrets strategy (storage, push, usage)
-- [x] Choose deployment strategy (Bootstrap vs ArgoCD) → **ArgoCD** 🎯
+---
 
-<br>
+## 📚 Docs, Notes & How-Tos
 
-### Next Up 🚧
-Refactor the **cp-deploy** project to use an ArgoCD *App of Apps* pattern to bootstrap:
+This repo will also hold markdown notes under something like `docs/` or `notes/`.
 
-- [ ] MetalLB
-- [ ] ingress-nginx
-- [ ] cert-manager
-- [ ] external-secrets
-- [ ] Infisical
-- [ ] Bitwarden
-- [ ] Rook-Ceph
-- [ ] CloudNativePG (CNPG)
-- [ ] Keycloak
-- [ ] Gitea
-- [ ] Nexus
-- [ ] ArgoCD
-- [ ] Kubernetes Dashboard
-- [ ] Paperless
-- [ ] Plex
-
-<br>
 🧑🏼‍🏭
