@@ -9,7 +9,7 @@ This repo is the **control center** for my homelab:
 
 Goal: **documented, repeatable home infra** that feels more like a tiny cloud and less like a pile of sticky notes.
 
-***Update**: New Task board: GitHub Project 📋*
+***Update**: New [Task board📋](https://github.com/users/pukar10/projects/1)*
 <br><br>
 
 ## 🧭 Contents
