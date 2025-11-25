@@ -10,7 +10,7 @@ This repo is the **control center** for my homelab.
 
 </div>
 
-Index of various homelab repos
+- Index of various homelab repos
 - Notes, guides, and “what did Past Me do to make this work?”
 - Troubleshooting logs so Future Me doesn’t suffer (as much)
 
