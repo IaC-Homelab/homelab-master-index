@@ -62,7 +62,7 @@ docker compose version
 
 
 
-5. Install Node
+5. Install Node via nvm
 ```bash
 # 3.1 Download and install nvm:
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
