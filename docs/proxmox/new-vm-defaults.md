@@ -1,10 +1,12 @@
-# New VM
+# New VM Defaults
+
+## VM
 
 ### System
 ![alt text](../screenshots/new-vm-defaults/image.png)
 
 ### Disk
-![alt text](../screenshots/new-vm-defaults/image-1.png)
+![alt text](../screenshots/new-vm-defaults/image-5.png)
 
 ### CPU
 ![alt text](../screenshots/new-vm-defaults/image-2.png)
@@ -15,3 +17,18 @@
 ### Network
 ![alt text](../screenshots/new-vm-defaults/image-4.png)
 
+## Ubuntu
+
+### Installation
+Ubuntu Server
+
+### Network Config
+![alt text](../screenshots/new-vm-defaults/image-6.png)
+
+Use DHCP, set reservation on router if needed
+
+### Proxy
+Don't set one
+
+### Storage
+Default - don't touch
