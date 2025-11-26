@@ -1,6 +1,12 @@
 # Bootstrap
 
-1. Updates & basic packages
+1. Create admin user
+```bash
+sudo add user admin
+sudo usermod -aG sudo admin
+```
+
+3. Updates & basic packages
 ```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y ca-certificates git curl vim
@@ -8,7 +14,7 @@ sudo apt install -y ca-certificates git curl vim
 
 
 
-2. Install Docker
+3. Install Docker
 ```bash
 # 2.1 Remove any conflicting packages
 sudo apt remove $(dpkg --get-selections docker.io docker-compose docker-compose-v2 docker-doc podman-docker containerd runc | cut -f1)
@@ -44,7 +50,7 @@ docker run --rm hello-world
 
 
 
-3. Install docker-compose
+4. Install docker-compose
 ```bash
 # 3.1 Update & install 
 sudo apt-get update
@@ -56,7 +62,7 @@ docker compose version
 
 
 
-3. Install Node
+5. Install Node
 ```bash
 # 3.1 Download and install nvm:
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
