@@ -11,7 +11,7 @@ sudo apt install -y ca-certificates git curl vim
 2. Install Docker
 ```bash
 # 2.1 Remove any conflicting packages
- sudo apt remove $(dpkg --get-selections docker.io docker-compose docker-compose-v2 docker-doc podman-docker containerd runc | cut -f1)
+sudo apt remove $(dpkg --get-selections docker.io docker-compose docker-compose-v2 docker-doc podman-docker containerd runc | cut -f1)
 
 # 2.2 Add Docker offical GPG key
 sudo apt install ca-certificates curl
