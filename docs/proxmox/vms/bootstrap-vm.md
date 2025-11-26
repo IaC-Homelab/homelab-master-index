@@ -7,7 +7,7 @@ sudo usermod -aG sudo admin
 ```
 
 
-2. Updates & basic setup
+2. Initial upgrades, packages, and setup
 ```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install -y ca-certificates git curl vim
