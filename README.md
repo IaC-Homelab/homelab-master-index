@@ -67,21 +67,3 @@ This repo will also hold notes under something like `docs/` or `notes/`, includi
 
 
 Happy Homelabbing 🧑🏼‍🏭
-
-
-# Troubleshooting
-
-
-##### No more space on disk
-```bash
-# Check disk space
-df -h
-
-# In this directory Display disk usage of every file + folder
-du -sh * .[!.]* 2>/dev/null | sort -h
-
-# Usual suspects
-rm -rf ~/.vscode-server
-rm -rf ~/.cache/*
-rm -rf node_modules # run from inside projects
-```
