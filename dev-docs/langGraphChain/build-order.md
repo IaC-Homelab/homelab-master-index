@@ -35,4 +35,4 @@
     * Compose subgraphs (as nodes)
     * Add router logic (pick which agents to run)
     * Add final formatting node
-    * Implement **stream events** using `.astream()`, `stream_mode=["updates","messages","custom"]` and `get_stream_writer()` for custom progress inside tools/nodes.
+    * Implement **stream events** using `.astream()`, `stream_mode=["updates","messages"]` then adding `["custom"]`. For custom progress inside tools/nodes use `get_stream_writer()`.
