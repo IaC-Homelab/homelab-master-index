@@ -1,10 +1,5 @@
 # Overview
 
-## Possible upgrades
-
-- [ ] Returning full histroy gets expensive- return only `reply` + `thread_id`.
-- [ ] Add `GET /sessions/{thread_id} for history
-
 ## Agents
 
 ### Static models

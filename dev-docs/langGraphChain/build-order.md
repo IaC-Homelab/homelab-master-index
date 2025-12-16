@@ -1,5 +1,10 @@
 # Build order
 
+### Think about
+
+- [ ] Return only `reply` + `thread_id`. - returning full histroy gets expensive-
+- [ ] Add `GET /sessions/{thread_id} for history
+
 #### Parent Graph 1
 
 1. `config`
@@ -19,14 +24,19 @@
     * TypedDict + Reducers
 
 2. `tools`
+    * Functions of actual work
     * Expost a list of tools
+    * tools = function
 
 3. `nodes`
+    * Reads state, does some work (LLM call, tool call, validation, DB write, etc)
     * Contains node funcitons- that accept `state`, `config`, `runtime`
+    * nodes = step
 
 4. `graph.py`
     * Build agent subgraph using `StateGraph`
     * Bind tools once at graph build runtime
+    * graph = wiring between steps
 
 #### Parent Graph 2
 
