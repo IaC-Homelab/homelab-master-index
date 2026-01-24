@@ -31,6 +31,7 @@
 3. `nodes`
     * Reads state, does some work (LLM call, tool call, validation, DB write, etc)
     * Contains node funcitons- that accept `state`, `config`, `runtime`
+    * Defines an `AGENT_SYSTEM_PROMPT`
     * nodes = step
 
 4. `graph.py`
