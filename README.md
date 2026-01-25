@@ -10,15 +10,21 @@ This repo is the **control center** for my homelab.
 
 </div>
 
-- Index of various homelab repos
-- Notes, guides, and “what did Past Me do to make this work?”
-- Troubleshooting logs so Future Me doesn’t suffer (as much)
+Acts as an Index for Homelab repos. Stores notes Guides and general research regarding Homelab related content. Troubleshooting file cabinet.
 
-Goal: **documented, repeatable home infra** that feels more like a tiny cloud and less like a pile of sticky notes.
-
+Goal: **documented, repeatable home infra** that feels more like a tiny cloud.
 
 > [!TIP]  
 > 🆕 Check out the project board: **[Task Board 📋](https://github.com/users/pukar10/projects/1)**
+<br>
+
+## Repo Naming Conventions
+
+### Repos that build infra
+
+|Pattern|Example|
+|---|---|
+|`<infra>-<Tool>`|proxmox-tf|
 <br>
 
 ## 📚 Docs, Notes & How-Tos
